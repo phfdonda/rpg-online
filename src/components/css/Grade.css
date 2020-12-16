@@ -1,0 +1,5 @@
+.grade{
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}

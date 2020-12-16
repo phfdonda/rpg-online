@@ -1,0 +1,9 @@
+:root{
+  --dot-size: 20px;
+}
+
+Svg{
+  height: var(--dot-size);
+  width: var(--dot-size);
+  margin: 2px;
+}

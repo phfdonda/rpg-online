@@ -1,45 +1,37 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Selector from "./Selector";
-import './css/Grade.css'
+import { mapState, renderPoints } from "../utils/gradeHelper";
+import "./css/Grade.css";
 
 function Grade(props) {
-  const {maxPoints, assignedPoints} =  props
-  const emptyPoints = maxPoints - assignedPoints
-  const [hovered, setHovered] = useState(0)
-  const [selected, setSelected] = useState(0)
+  const { maxPoints, assignedPoints, assignPoint } = props;
+  const emptyPoints = maxPoints - assignedPoints;
+  const [hovered, setHovered] = useState(0);
+  const [selected, setSelected] = useState(0);
 
-  function handleHover(id){
-    setHovered(id)
+  function handleHover(id) {
+    setHovered(id);
   }
-  function handleClick(id){
-    if(selected === id){
-      setSelected(0)
-    }else{
-      setSelected(id)
-    }
-  }
-  function mapState(index, selected, hovered){
-    if(index <= selected) return "selected"
-    if(index<= hovered) return 'hovered'
 
-    return 'empty'
-  }
-  function renderPoints(){
-    const points = [];
-    for (let id = 1; id <= assignedPoints; id++) {
-      points.push(
-        <Selector
-          isPoint={true}
-          state="filled"
-          id={id}
-          color="black"
-        />
-      );
+  function handleClick(id) {
+    const diff = id - selected;
+    if(diff === 0){
+      if(assignPoint(-selected)){
+        setSelected(0);
+      }else{
+        alert('what?')
+      }
+    }else {
+      if(assignPoint(diff)){
+        setSelected(id);
+      }else{
+        alert("some error");
+      }
     }
-    return points;
+
   }
-  function renderGrade(){
-    const grade = []
+  function renderGrade() {
+    const grade = [];
     for (let id = 1; id <= emptyPoints; id++) {
       grade.push(
         <Selector
@@ -52,11 +44,12 @@ function Grade(props) {
         />
       );
     }
-    return grade
+    return grade;
   }
+
   return (
     <div className="grade">
-      {renderPoints()}
+      {renderPoints(assignedPoints)}
       {renderGrade()}
     </div>
   );

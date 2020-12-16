@@ -6,7 +6,7 @@ function Selector(props) {
 
   const mapSelector = {
     filled: "40%",
-    selected: "25%",
+    selected: "28%",
     hovered: "15%",
     empty: 0,
   };

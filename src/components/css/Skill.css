@@ -1,0 +1,9 @@
+h3{
+  margin: 0;
+}
+
+.skill{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

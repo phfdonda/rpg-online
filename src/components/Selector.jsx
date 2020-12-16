@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Selector.css";
 
 function Selector(props) {
-  const { color, state, id, handleHover, handleClick, reRender } = props;
+  const { color, state, id, handleHover, handleClick, reRender, isPoint } = props;
 
   const mapSelector = {
     filled: "40%",
@@ -25,7 +25,11 @@ function Selector(props) {
   }
 
   return (
-    <svg onMouseUp={sendSelected} onMouseOver={mouseOn} onMouseOut={mouseOut}>
+    <svg
+      onMouseUp={!isPoint && sendSelected}
+      onMouseOver={!isPoint && mouseOn}
+      onMouseOut={!isPoint && mouseOut}
+    >
       <circle
         r="40%"
         cy="50%"

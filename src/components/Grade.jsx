@@ -29,6 +29,7 @@ function Grade(props) {
     for (let id = 1; id <= assignedPoints; id++) {
       points.push(
         <Selector
+          isPoint={true}
           state="filled"
           id={id}
           color="black"

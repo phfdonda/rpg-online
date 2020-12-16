@@ -3,7 +3,7 @@ import Grade from './Grade'
 
 function App(){
 return(
-  <Grade maxPoints="5" assignedPoints='2'/>
+  <Grade maxPoints="5" assignedPoints='1'/>
 )
 }
 

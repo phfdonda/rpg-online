@@ -19,13 +19,13 @@ function Grade(props) {
       if(assignPoint(-selected)){
         setSelected(0);
       }else{
-        alert('what?')
+        alert('Error returning XP')
       }
     }else {
       if(assignPoint(diff)){
         setSelected(id);
       }else{
-        alert("some error");
+        alert("Error assigning XP");
       }
     }
 

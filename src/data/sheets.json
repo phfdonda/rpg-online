@@ -1,0 +1,674 @@
+{
+ "mage_awakening": {
+    "_id": "mage-awakening",
+    "Characteristics":{
+      "Main":{
+        "Name":"",
+        "Player":"",
+        "Chronicle":"",
+        "Nature":"",
+        "Essence":"",
+        "Demeanor":"",
+        "Tradition":"",
+        "Concept":"",
+        "Cabal":""
+      },
+      "Expanded":{
+        "Prelude":"",
+        "Age":0,
+        "Apparent Age":0,
+        "Date of Birth": 0,
+        "Age of Awakening": 0,
+        "Hair": "",
+        "Eyes": "",
+        "Ethnicity":"",
+        "Nationality":"",
+        "Height":"",
+        "Weight":"",
+        "Gender":"",
+        "Avatar":""
+      }
+    },
+    "Attributes":{
+      "Physical":{
+        "Strength":1,
+        "Dexterity":1,
+        "Stamina":1
+      },
+      "Social":{
+        "Charisma":1,
+        "Manipulation":1,
+        "Appearance":1
+      },
+      "Mental":{
+        "Perception":1,
+        "Intelligence":1,
+        "Wits":1
+      }
+    },
+    "Abilities":{
+      "Talents":{
+        "Alertness":0,
+        "Athletics":0,
+        "Awareness":0,
+        "Brawl":0,
+        "Dodge":0,
+        "Empathy":0,
+        "Expression":0,
+        "Intimidation":0,
+        "Leadership":0,
+        "Streetwise":0,
+        "Subterfuge":0
+      },
+      "Skills":{
+        "Crafts":0,
+        "Drive":0,
+        "Etiquette":0,
+        "Firearms":0,
+        "Larceny":0,
+        "Meditation":0,
+        "Melee":0,
+        "Performance":0,
+        "Stealth":0,
+        "Survival":0
+      },
+      "Knowledges":{
+        "Academics":0,
+        "Computer":0,
+        "Cosmology":0,
+        "Enigmas":0,
+        "Investigation":0,
+        "Law":0,
+        "Medicine":0,
+        "Occult":0,
+        "Science":0,
+        "Technology":0
+      }
+    },
+    "Spheres":{
+      "Correspondence":0,
+      "Entropy":0,
+      "Forces":0,
+      "Life":0,
+      "Matter":0,
+      "Mind":0,
+      "Prime":0,
+      "Spirit":0,
+      "Time":0
+    },
+    "Advantages":{
+      "Arete": 0,
+      "Willpower":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Quintessence":{
+        "Points":0,
+        "Paradox":0
+      },
+      "Health":{
+        "Bashing":0,
+        "Lethal":0,
+        "Aggravated":0,
+        "Effects":{
+          "Poisoned":{
+            "Turns":0,
+            "Harms":"",
+            "Ammount":0
+          },
+          "Bleeding":{
+            "Turns":0,
+            "Ammount":0,
+            "Stopped": false
+          }
+        }
+      },
+      "Resonance":{
+        "Dynamic":0,
+        "Entropic":0,
+        "Static": 0
+      },
+      "Experience": 0
+    },
+    "Merits & Flaws":{
+      "Merits":{},
+      "Flaws":{}
+    },
+    "Other Traits":{
+
+    },
+    "Magic":{
+      "Wonders":[]
+    },
+    "Combat":{
+
+    },
+    "Background":{
+      "Allies":{},
+      "Contacts":{},
+      "Fame":{},
+      "Influence":{},
+      "Mentors":{},
+      "Library":{},
+      "Node":{},
+      "Resources":{},
+      "Retainers":{},
+      "Sanctum":{},
+      "Other":{}
+    },
+    "Possessions":{
+      "Gear(carried)":{},
+      "Equipment(owned)":{},
+      "Vehicles":{},
+      "Foci":{},
+      "Familiar":{},
+      "Grimoire":{}
+    },
+    "Chantry":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Images":{}
+  },
+
+  "wraith-oblivion": {
+    "_id": "wraith-oblivion",
+    "Characteristics":{
+      "Main":{
+        "Name":"",
+        "Player":"",
+        "Chronicle":"",
+        "Nature":"",
+        "Shadow":"",
+        "Demeanor":"",
+        "Life":"",
+        "Death":"",
+        "Regret":""
+      },
+      "Expanded":{
+        "Prelude":"",
+        "Age":0,
+        "Apparent Age":0,
+        "Date of Birth": 0,
+        "Age of Awakening": 0,
+        "Hair": "",
+        "Eyes": "",
+        "Ethnicity":"",
+        "Nationality":"",
+        "Height":"",
+        "Weight":"",
+        "Gender":"",
+        "Avatar":""
+      }
+    },
+    "Attributes":{
+      "Physical":{
+        "Strength":1,
+        "Dexterity":1,
+        "Stamina":1
+      },
+      "Social":{
+        "Charisma":1,
+        "Manipulation":1,
+        "Appearance":1
+      },
+      "Mental":{
+        "Perception":1,
+        "Intelligence":1,
+        "Wits":1
+      }
+    },
+    "Abilities":{
+      "Talents":{
+        "Alertness":0,
+        "Athletics":0,
+        "Awareness":0,
+        "Brawl":0,
+        "Dodge":0,
+        "Empathy":0,
+        "Expression":0,
+        "Intimidation":0,
+        "Leadership":0,
+        "Streetwise":0,
+        "Subterfuge":0
+      },
+      "Skills":{
+        "Crafts":0,
+        "Drive":0,
+        "Etiquette":0,
+        "Firearms":0,
+        "Larceny":0,
+        "Meditation":0,
+        "Melee":0,
+        "Performance":0,
+        "Stealth":0,
+        "Survival":0
+      },
+      "Knowledges":{
+        "Academics":0,
+        "Computer":0,
+        "Cosmology":0,
+        "Enigmas":0,
+        "Investigation":0,
+        "Law":0,
+        "Medicine":0,
+        "Occult":0,
+        "Science":0,
+        "Technology":0
+      }
+    },
+    "Arcanoi":{
+      "Argos":0,
+      "Castigate":0,
+      "Embody":0,
+      "Fatalism":0,
+      "Inhabit":0,
+      "Keening":0,
+      "Lifeweb":0,
+      "Moliate":0,
+      "Outrage":0,
+      "Pandemonium":0,
+      "Phantasm": 0,
+      "Puppetry": 0,
+      "Usury": 0
+    },
+    "Advantages":{
+      "Arete": 0,
+      "Willpower":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Pathos":0,
+      "Corpus": {
+        "Permanent": 10,
+        "Temporary": 10
+      },
+      "Passions":{},
+      "Fetters":{},
+      "Experience": 0
+    },
+    "Merits & Flaws":{
+      "Merits":{},
+      "Flaws":{}
+    },
+    "Other Traits":{
+
+    },
+    "Background":{
+      "Allies":{},
+      "Contacts":{},
+      "Fame":{},
+      "Mentors":{},
+      "Influence":{},
+      "Library":{},
+      "Node":{},
+      "Resources":{},
+      "Retainers":{},
+      "Sanctum":{},
+      "Other":{}
+    },
+    "Possessions":{
+      "Gear(carried)":{},
+      "Equipment(owned)":{}
+    },
+    "Haunt":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Shadow":{
+      "Psyche":"",
+      "Shadow Guide": "",
+      "Archetype": "",
+      "Thorns":[],
+      "Angst":{
+        "Permanent": 10,
+        "Temporary": 10
+      },
+      "Psyche Willpower": 10,
+      "Dark Passions":{}
+    },
+    "Images":{}
+  },
+  "vampire-masquerade": {
+    "_id": "vampire-masquerade",
+    "Characteristics":{
+      "Main":{
+        "Name":"",
+        "Player":"",
+        "Chronicle":"",
+        "Nature":"",
+        "Demeanor":"",
+        "Concept":"",
+        "Clan":"",
+        "Generation":"",
+        "Sire":""
+      },
+      "Expanded":{
+        "Prelude":"",
+        "Age":0,
+        "Apparent Age":0,
+        "Date of Birth": 0,
+        "Date of Embrace":0,
+        "Hair": "",
+        "Eyes": "",
+        "Ethnicity":"",
+        "Nationality":"",
+        "Height":"",
+        "Weight":"",
+        "Gender":"",
+        "Sect": "",
+        "Coterie":""
+      }
+    },
+    "Attributes":{
+      "Physical":{
+        "Strength":1,
+        "Dexterity":1,
+        "Stamina":1
+      },
+      "Social":{
+        "Charisma":1,
+        "Manipulation":1,
+        "Appearance":1
+      },
+      "Mental":{
+        "Perception":1,
+        "Intelligence":1,
+        "Wits":1
+      }
+    },
+    "Abilities":{
+      "Talents":{
+        "Alertness":0,
+        "Athletics":0,
+        "Awareness":0,
+        "Brawl":0,
+        "Dodge":0,
+        "Empathy":0,
+        "Expression":0,
+        "Intimidation":0,
+        "Leadership":0,
+        "Streetwise":0,
+        "Subterfuge":0
+      },
+      "Skills":{
+        "Crafts":0,
+        "Drive":0,
+        "Etiquette":0,
+        "Firearms":0,
+        "Larceny":0,
+        "Meditation":0,
+        "Melee":0,
+        "Performance":0,
+        "Stealth":0,
+        "Survival":0
+      },
+      "Knowledges":{
+        "Academics":0,
+        "Computer":0,
+        "Cosmology":0,
+        "Enigmas":0,
+        "Investigation":0,
+        "Law":0,
+        "Medicine":0,
+        "Occult":0,
+        "Science":0,
+        "Technology":0
+      }
+    },
+    "Disciplines":{
+      "Animalism":0,
+      "Auspex":0,
+      "Celerity":0,
+      "Dominate":0,
+      "Fortitude":0,
+      "Obfuscate":0,
+      "Potence":0,
+      "Presence":0,
+      "Protean":0,
+      "Thaumaturgy": 0
+    },
+    "Advantages":{
+      "Humanity": 5,
+      "Willpower":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Blood Pool":0,
+      "Health":{
+        "Bashing":0,
+        "Lethal":0,
+        "Aggravated":0,
+        "Effects":{
+
+        }
+      },
+      "Virtues":{
+        "Conscience":0,
+        "Self-control":0,
+        "Courage": 0
+      },
+      "Experience": 0
+    },
+    "Merits & Flaws":{
+      "Merits":{},
+      "Flaws":{}
+    },
+    "Other Traits":{
+
+    },
+    "Rituals":{
+    },
+    "Derangements":[],
+    "Combat":{},
+    "Background":{
+      "Allies":{},
+      "Contacts":{},
+      "Fame":{},
+      "Mentors":{},
+      "Influence":{},
+      "Ghouls":{},
+      "Resources":{},
+      "Blood Bonds":{},
+      "Retainers":{},
+      "Sanctum":{},
+      "Herd":{},
+      "Status": {},
+      "Other":{}
+    },
+    "Possessions":{
+      "Gear(carried)":{},
+      "Equipment(owned)":{},
+      "Feeding Grounds":{},
+      "Vehicles":{}
+    },
+    "Domain":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Haven":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Images":{}
+  },
+  "werewolf-apocalypse": {
+    "_id": "werewolf-apocalypse",
+    "Characteristics":{
+      "Main":{
+        "Name":"",
+        "Player":"",
+        "Chronicle":"",
+        "Nature":"",
+        "Demeanor":"",
+        "Concept":"",
+        "Breed":"",
+        "Auspice":"",
+        "Tribe":""
+      },
+      "Expanded":{
+        "Prelude":"",
+        "Age":0,
+        "Apparent Age":0,
+        "Date of Birth": 0,
+        "Date of First Turn":0,
+        "Hair": "",
+        "Eyes": "",
+        "Ethnicity":"",
+        "Nationality":"",
+        "Height":"",
+        "Weight":"",
+        "Gender":""
+      }
+    },
+    "Attributes":{
+      "Physical":{
+        "Strength":1,
+        "Dexterity":1,
+        "Stamina":1
+      },
+      "Social":{
+        "Charisma":1,
+        "Manipulation":1,
+        "Appearance":1
+      },
+      "Mental":{
+        "Perception":1,
+        "Intelligence":1,
+        "Wits":1
+      }
+    },
+    "Abilities":{
+      "Talents":{
+        "Alertness":0,
+        "Athletics":0,
+        "Awareness":0,
+        "Brawl":0,
+        "Dodge":0,
+        "Empathy":0,
+        "Expression":0,
+        "Intimidation":0,
+        "Leadership":0,
+        "Streetwise":0,
+        "Subterfuge":0,
+        "Instinct": 0
+      },
+      "Skills":{
+        "Animal Ken": 0,
+        "Crafts":0,
+        "Drive":0,
+        "Etiquette":0,
+        "Firearms":0,
+        "Larceny":0,
+        "Meditation":0,
+        "Melee":0,
+        "Performance":0,
+        "Stealth":0,
+        "Survival":0
+      },
+      "Knowledges":{
+        "Academics":0,
+        "Computer":0,
+        "Cosmology":0,
+        "Enigmas":0,
+        "Investigation":0,
+        "Law":0,
+        "Medicine":0,
+        "Occult":0,
+        "Science":0,
+        "Technology":0
+      }
+    },
+    "Gifts":{
+
+    },
+    "Advantages":{
+      "Willpower":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Rage":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Gnosis":{
+        "Permanent":5,
+        "Temporary":5
+      },
+      "Health":{
+        "Bashing":0,
+        "Lethal":0,
+        "Aggravated":0,
+        "Effects":{
+
+        }
+      },
+      "Renown":{
+        "Glory":{
+          "Permanent":0,
+          "Temporary":0
+        },
+        "Honor":{
+          "Permanent":0,
+          "Temporary":0
+        },
+        "Wisdom":{
+          "Permanent":0,
+          "Temporary":0
+        }
+      },
+      "Rank":0,
+      "Experience": 0
+    },
+    "Merits & Flaws":{
+      "Merits":{},
+      "Flaws":{}
+    },
+    "Other Traits":{
+
+    },
+    "Derangements":[],
+    "Combat":{},
+    "Background":{
+      "Allies":{},
+      "Kinfolk":{},
+      "Past Life":{},
+      "Pure Breed":{},
+      "Contacts":{},
+      "Fame":{},
+      "Mentors":{},
+      "Influence":{},
+      "Resources":{},
+      "Retainers":{},
+      "Sanctum":{},
+      "Status": {},
+      "Totem":{},
+      "Other":{}
+    },
+    "Possessions":{
+      "Gear(carried)":{},
+      "Equipment(owned)":{},
+      "Feeding Grounds":{},
+      "Vehicles":{},
+      "Fetiches":{}
+    },
+    "Caern":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Den":{
+      "Name":"",
+      "Location":"",
+      "Description":""
+    },
+    "Pack":{
+
+    },
+    "Images":{}
+  }
+}

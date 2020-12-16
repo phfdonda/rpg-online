@@ -8,8 +8,6 @@ function SkillSet(props) {
   const [availableXp, setAvailableXp] = useState(xp)
 
   function setXp(selectedValue){
-    alert('available XP is '+ availableXp)
-    alert('selected value is '+ selectedValue)
     if(selectedValue <= availableXp){
       setAvailableXp( availableXp - selectedValue)
       return true

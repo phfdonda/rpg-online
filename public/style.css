@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2% 1%;
+  display: grid;
+}

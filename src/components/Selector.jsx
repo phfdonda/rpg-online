@@ -2,7 +2,15 @@ import React from "react";
 import "./css/Selector.css";
 
 function Selector(props) {
-  const { color, state, id, handleHover, handleClick, reRender, isPoint } = props;
+  const {
+    color,
+    state,
+    id,
+    handleHover,
+    handleClick,
+    reRender,
+    isPoint,
+  } = props;
 
   const mapSelector = {
     filled: "40%",
@@ -30,6 +38,7 @@ function Selector(props) {
       onMouseOver={!isPoint && mouseOn}
       onMouseOut={!isPoint && mouseOut}
     >
+      <circle r="40%" cy="50%" cx="50%" fill="white" />
       <circle
         r="40%"
         cy="50%"
